@@ -1325,13 +1325,12 @@ $PMF_LANG['ad_section_suc'] = "Der Bereich wurde <strong>erfolgreich</strong> hi
 $PMF_LANG['ad_section_deleted'] = "Der Bereich wurde erfolgreich gelöscht.";
 $PMF_LANG['rightsLanguage']['viewadminlink'] = 'Link zur Administration sichtbar';
 
-// added v3.0.0-alpha.4 - 2019-01-05 by Thorsten
-// duplicated - 2020.03.28 by kralizeck
-// $LANG_CONF['main.enableSendToFriend'] = ['checkbox', 'An Freunde senden aktivieren'];
-
 // added v3.0.0-beta.3 - 2019-09-22 by Thorsten
 $LANG_CONF['mail.remoteSMTPPort'] = [0 => 'input', 1 => 'SMTP Server Port'];
 $LANG_CONF['mail.remoteSMTPEncryption'] = [0 => 'input', 1 => 'SMTP Server Verschlüsselung'];
 $PMF_LANG['ad_record_faq'] = 'Frage und Antwort';
 $PMF_LANG['ad_record_permissions'] = 'Berechtigungen';
 $PMF_LANG['loginPageMessage'] = 'Login für ';
+
+// added v3.1.0-alpha - 2020-03-27 by Thorsten
+$PMF_LANG['ad_user_data_is_visible'] = 'Benutzername soll sichtbar sein';
